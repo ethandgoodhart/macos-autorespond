@@ -12,4 +12,4 @@ Make sure to install required python3 modules by running
 
 Then, you can run the script like this (you may have to grant terminal additional permissions to run the script)
 
-`python3 bot.py "YOUR_OPENAI_KEY_HERE"`
+`python3 bot.py "YOUR_OPENAI_KEY_HERE" "YOUR_PHONE_NUMBER_HERE"`
