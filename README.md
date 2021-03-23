@@ -1,5 +1,5 @@
 # GPT-3-iMessage-Bot
-## DISCLAIMER: DO NOT TEXT YOURSELF FROM YOUR OWN PHONE NUMBER WHILE RUNNING THIS SCRIPT, THE SCRIPT WILL KEEP RESPONDING TO ITSELF
+## DISCLAIMER: Do not text yourself from your own phone number while running this script. Doing so will result in the bot continuously texting itself.
 
 Clone and cd into the repository
 
@@ -12,6 +12,6 @@ Make sure to install required python3 modules by running
 `pip3 install -r requirements.txt`
 
 
-Run the script like this
+Then, run the script like this
 
 `python3 bot.py "YOUR_OPENAI_KEY_HERE"`
