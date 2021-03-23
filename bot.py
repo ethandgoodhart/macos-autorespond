@@ -63,9 +63,13 @@ while True:
 	date_object = datetime.datetime.strptime(formatted_date, '%Y-%m-%d %H:%M:%S')
 
 	if date_object > start_date:
-		new_message_text = raw_result[0].strip()
-		new_message_sender = raw_result[1]
-		response = getResponse(new_message_text, raw_result[3])
-		start_date = date_object
-		sendMessage(response, new_message_sender)
-		print("Responded to '"+new_message_text+"' with '"+response+"'")
+		if len(cursor.execute("SELECT * FROM 'chat_handle_join' T1 INNER JOIN 'handle' T2 ON T2.id = '"+str(sys.argv[2])+"' AND T1.handle_id = T2.ROWID AND T1.chat_id = " + str(raw_result[3])).fetchall()) > 0:
+			os.system('open "https://youtu.be/1-wb9ddKsDE"')
+			start_date = date_object
+		else:
+			new_message_text = raw_result[0].strip()
+			new_message_sender = raw_result[1]
+			response = getResponse(new_message_text, raw_result[3])
+			start_date = date_object
+			sendMessage(response, new_message_sender)
+			print("Responded to '"+new_message_text+"' with '"+response+"'")
