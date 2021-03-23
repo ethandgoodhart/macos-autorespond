@@ -1,5 +1,5 @@
 # GPT-3-iMessage-Bot
-## DISCLAIMER: Do not text yourself from your own phone number while running this script. Doing so will result in the bot continuously texting itself.
+## In this branch, if you text yourself, a youtube video will play
 
 <br>Clone and cd into the repository
 
