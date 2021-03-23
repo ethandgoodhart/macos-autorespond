@@ -1,7 +1,7 @@
 # GPT-3-iMessage-Bot
 ## DISCLAIMER: Do not text yourself from your own phone number while running this script. Doing so will result in the bot continuously texting itself.
 
-Clone and cd into the repository
+<br>Clone and cd into the repository
 
 `git clone https://github.com/ethandgoodhart/GPT-3-iMessage-Bot`
 `cd GPT-3-iMessage-Bot`<br><br>
