@@ -1,4 +1,4 @@
-# GPT-3-iMessage-Bot
+# macos-autorespond
 
 <br>Clone and cd into the repository
 
